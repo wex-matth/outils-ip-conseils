@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>IP Conseils / Rénov’Conseils — Outils &amp; calculettes</title><style>
+:root{--pink:#ec3b83;--ink:#1f2937;--muted:#64748b;--line:#e2e8f0;--bg:#f5f6fa;--green:#147d59}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+header{background:#fff;border-bottom:4px solid var(--pink)}
+.head{max-width:1260px;margin:auto;padding:16px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.brandimg{display:block;width:min(470px,60vw);height:auto}
+.tag{font-size:13px;color:var(--muted)}
+.wrap{max-width:960px;margin:auto;padding:35px 22px 55px}
+h1{font-size:29px;margin:5px 0 7px}
+.intro{color:var(--muted);margin:0 0 28px}
+.tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 4px 20px #12213b08;text-decoration:none;color:inherit;transition:box-shadow .15s,border-color .15s,transform .15s;position:relative;overflow:hidden}
+.card::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:var(--pink);opacity:0;transition:opacity .15s}
+.card:hover,.card:focus-visible{box-shadow:0 8px 28px #12213b1a;border-color:#ffc9df;transform:translateY(-2px)}
+.card:hover::before,.card:focus-visible::before{opacity:1}
+.card:focus-visible{outline:3px solid #f7a8c9}
+.pill{display:inline-block;align-self:flex-start;background:#fff0f6;color:#a81f59;padding:5px 9px;border-radius:99px;font-size:12px;font-weight:bold;margin-bottom:12px}
+.card h2{font-size:18px;margin:0 0 9px}
+.card p{font-size:13.5px;color:var(--muted);line-height:1.55;flex:1}
+.go{margin-top:16px;font-weight:bold;color:var(--pink);font-size:14px}
+.footer{color:var(--muted);font-size:11px;margin-top:30px}
+@media(max-width:900px){.tools{grid-template-columns:1fr 1fr}.head{flex-wrap:wrap}.brandimg{width:min(480px,100%)}}
+@media(max-width:600px){.tools{grid-template-columns:1fr}.wrap{padding:20px 15px 40px}}
+</style></head>
+<body>
+<header><div class="head">
+<div><img alt="IP Conseils et Rénov’Conseils" class="brandimg" src="assets/logo.png"/></div>
+<div class="tag">Votre projet. Notre expertise.<br/>Outils internes — calculettes</div>
+</div></header>
+<main class="wrap">
+<h1>Outils &amp; calculettes</h1>
+<p class="intro">Sélectionnez l’outil adapté à votre rendez-vous.</p>
+<div class="tools">
+<a class="card" href="Calculette_R1_Financement_IP_Conseils_RenovConseils_V_finale.html">
+<span class="pill">Rendez-vous découverte</span>
+<h2>Calculette financement — R1</h2>
+<p>Évaluation rapide de la capacité d’emprunt et du budget travaux selon la fiche pratique réseau du 30 avril 2026.</p>
+<span class="go">Ouvrir la calculette &rarr;</span>
+</a>
+<a class="card" href="Calculette_refinancement_credits_conso_IP_Conseils.html">
+<span class="pill">Crédits conso</span>
+<h2>Refinancement des crédits consommation</h2>
+<p>Comparer le regroupement des crédits conso avec le financement global du projet et mesurer l’impact sur la capacité.</p>
+<span class="go">Ouvrir la calculette &rarr;</span>
+</a>
+<a class="card" href="Calculette_retroplanning_IP_Conseils_simplifiee.html">
+<span class="pill">Suivi dossier</span>
+<h2>Rétroplanning dossier</h2>
+<p>Générer un rétroplanning simplifié à partir de la date de déblocage des fonds et des étapes clés du dossier.</p>
+<span class="go">Ouvrir la calculette &rarr;</span>
+</a>
+</div>
+<p class="footer">Outil interne — IP Conseils / Rénov’Conseils</p>
+</main>
+</body></html>
